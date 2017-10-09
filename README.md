@@ -1,5 +1,6 @@
 # OfficialWeb
-Official Website of Mozilla Campus Club IIT
+
+## Official Website of Mozilla Campus Club IIT
 
 
 This repository contains all resources related to Mozilla Campus Club of Informatics Institute of Technology. Since we are a open source community, you can contribute this repository to make a great website for our club.
@@ -12,4 +13,4 @@ Rules and Regulations
 Let's make it happen...
 Happy Coding....
 
-Note the Preview of the code is available at https://mozilla-campus-club-iit.github.io/
+`Note the Preview of the code is available at https://mozilla-campus-club-iit.github.io/`
