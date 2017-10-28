@@ -3013,6 +3013,13 @@
 		align-items: stretch;
 	}
 
+	#one .flex-item-center {
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+	}
+
 		#one .flex-item.left div:first-child, #one .flex-item.right div:first-child {
 			padding-top: 1em;
 		}
