@@ -2919,10 +2919,11 @@
 /* Banner */
 
 	#banner {
-		padding: 14em 0 12em 0;
+		height: 26.5vw;
+		width: 100%;
 		background-image: url(../../images/banner.png);
 		background-size: cover;
-		background-position: center top;
+		background-position: 50%;
 		background-repeat: no-repeat;
 		text-align: center;
 	}
@@ -2948,55 +2949,31 @@
 			margin-bottom: 1.75em;
 		}
 
-		@media screen and (max-width: 1280px) {
-
-			#banner {
-				padding: 12em 0 10em 0;
-			}
-
-		}
-
 		@media screen and (max-width: 980px) {
 
-			#banner {
-				padding: 8em 6em 6em 6em;
+			#banner br {
+				display: none;
 			}
 
-				#banner br {
-					display: none;
-				}
-
-				#banner h1 {
-					font-size: 2.25em;
-				}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			#banner {
-				padding: 6em 4em 4em 4em;
+			#banner h1 {
+				font-size: 2.25em;
 			}
 
 		}
 
 		@media screen and (max-width: 480px) {
 
-			#banner {
-				padding: 4em 2em 2em 2em;
+			#banner h1 {
+				font-size: 2em;
 			}
 
-				#banner h1 {
-					font-size: 2em;
-				}
+			#banner p {
+				font-size: 1em;
+			}
 
-				#banner p {
-					font-size: 1em;
-				}
-
-				#banner .button {
-					font-size: .9em;
-				}
+			#banner .button {
+				font-size: .9em;
+			}
 
 		}
 
@@ -3034,6 +3011,13 @@
 		-webkit-align-items: stretch;
 		-ms-align-items: stretch;
 		align-items: stretch;
+	}
+
+	#one .flex-item-center {
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
 	}
 
 		#one .flex-item.left div:first-child, #one .flex-item.right div:first-child {
