@@ -2582,6 +2582,11 @@
 		align-items: stretch;
 	}
 
+	.flex-item.box:hover{
+		box-shadow: 5px 5px #25a2c3;
+		transition: 0.3s;
+	}
+
 		.flex.flex-3 .flex-item {
 			-ms-flex: 0 1 auto;
 			-ms-flex-preferred-size: 30%;
